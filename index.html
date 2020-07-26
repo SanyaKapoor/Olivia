@@ -1,15 +1,15 @@
 <html>
       <style>
-            <style>
+           
   df-messenger {
-   --df-messenger-bot-message: #878fac;
-   --df-messenger-button-titlebar-color: #df9b56;
-   --df-messenger-chat-background-color: #fafafa;
-   --df-messenger-font-color: white;
-   --df-messenger-send-icon: #878fac;
-   --df-messenger-user-message: #479b3d;
+   df-messenger-bot-message: #878fac;
+   df-messenger-button-titlebar-color: #df9b56;
+   df-messenger-chat-background-color: #fafafa;
+   df-messenger-font-color: white;
+   df-messenger-send-icon: #878fac;
+   df-messenger-user-message: #479b3d;
   }
-</style>
+
 body {
   background-image: 'olivia-demo.png';
   background-repeat: no-repeat;
@@ -18,6 +18,8 @@ body {
 }
 </style>
      <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+      <body>
+            <meta name="viewport" content="width-device-width, initial-scale=1">
 <df-messenger
   intent="WELCOME"
   chat-title="Olivia-CIP"
@@ -34,4 +36,5 @@ body {
         window.kommunicate = m; m._globals = kommunicateSettings;
       })(document, window.kommunicate || {});
   </script> -->
+      </body>
 </html>
