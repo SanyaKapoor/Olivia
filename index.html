@@ -7,7 +7,14 @@ body {
   background-size: cover;
 }
 </style>
-<script type="text/javascript">
+     <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="Olivia-CIP"
+  agent-id="412d79c8-c75c-439e-89bc-1665373ef558"
+  language-code="en"
+></df-messenger>
+<!-- <script type="text/javascript">
       /* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
       (function(d, m){
         var kommunicateSettings = {"appId":"17190bba98b599428bdb714889a1ec6fa","popupWidget":true,"automaticChatOpenOnNavigation":true};
@@ -16,5 +23,5 @@ body {
         var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
         window.kommunicate = m; m._globals = kommunicateSettings;
       })(document, window.kommunicate || {});
-  </script>
+  </script> -->
 </html>
