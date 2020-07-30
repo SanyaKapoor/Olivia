@@ -2,7 +2,7 @@
       const dfMessenger = document.querySelector('df-messenger');
       dfMessenger.addEventListener('df-response-received', function(event) {
       const replyMessages = event.detail.response.queryResult.fulfillmentMessages;
-      dfMessenger.renderCustomText(replyMessages);
+      dfMessenger.renderCustomText("hello");
       });
 </script>
       <df-messenger style="  
