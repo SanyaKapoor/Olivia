@@ -1,12 +1,4 @@
 <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
-   <script>  
-      const dfMessenger = document.querySelector('df-messenger');
-      dfMessenger.addEventListener('df-response-received', function(event) {
-      const replyMessages = event.detail.response.queryResult.fulfillmentMessages;
-      dfMessenger.renderCustomText("hello");
-      });
-</script>
-
       <df-messenger style="  
         --df-messenger-button-titlebar-color: #1A99AC;
         --df-messenger-bot-message: #1A99AC;
